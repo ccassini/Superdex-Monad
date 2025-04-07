@@ -61,15 +61,15 @@ function swapTokensForExactTokens(
     uint deadline
 ) external returns (uint[] memory amounts)
 
-// ETH Swapping
-function swapExactETHForTokens(
+// MON Swapping
+function swapExact MON ForTokens(
     uint amountOutMin,
     address[] calldata path,
     address to,
     uint deadline
 ) external payable returns (uint[] memory amounts)
 
-function swapTokensForExactETH(
+function swapTokensForExactMON(
     uint amountOut,
     uint amountInMax,
     address[] calldata path,
@@ -111,7 +111,7 @@ function devFeeAddress() external view returns (address)
 ### 1. Advanced Trading Capabilities
 - Multi-hop swaps (up to 5 hops)
 - Exact input/output amount swaps
-- ETH/token and token/ETH swaps
+- MON/token and token/MON swaps
 - Slippage protection
 - Deadline enforcement
 
